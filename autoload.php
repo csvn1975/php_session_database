@@ -8,7 +8,7 @@ spl_autoload_register(function ($classname) {
     if (file_exists($filename)) {
         include_once $filename;
     } else {
-        echo "Class file $filename not exist";
+        echo "Class file $filename not found";
         die();
     }
 });

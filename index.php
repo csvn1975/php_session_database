@@ -1,6 +1,6 @@
 <?php
-// error_reporting(E_ALL);
-// ini_set("display_errors","On");
+error_reporting(E_ALL);
+ini_set("display_errors","On");
 
 require_once 'autoload.php';
 require_once './config/database.php';
@@ -20,7 +20,6 @@ $_SESSION['cart'] = [
         'product_id' => random_int(1, 100000),  
     ]
 ];
-
 
 
 # if call this => add new session, otherwise update session
